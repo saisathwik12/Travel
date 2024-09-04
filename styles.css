@@ -1,0 +1,106 @@
+body{
+
+    margin: 0;
+}
+
+.head{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.head h1{
+    padding: 0px 100px;
+    flex: 2;
+    color: rgb(95, 0, 184);
+    font-size: 40px;
+
+}
+.headnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    flex:1;
+    
+}
+.headnav a{
+    text-decoration: none;
+    color:rgb(86, 0, 167);
+    font-size: large;
+}
+
+.text{
+    color: white;
+    padding: 100px 50px 250px;
+
+    font-size: larger;
+}
+.text h1{
+
+    font-size: 80px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(234, 148, 0);
+    
+}
+
+
+.background{
+    background-image: url(https://images.unsplash.com/photo-1707343848552-893e05dba6ac?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    
+
+
+}
+.text a{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    color: blueviolet;
+    
+}
+
+
+
+.shipcards{
+
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+section h1{
+    
+    margin: 50px 100px;
+    font-size: xx-large;
+}
+
+.ship{
+    margin: 20px 0px 50px;
+    padding: 80px 160px;
+    border: 2px solid blueviolet;
+    text-align: center;
+
+}
+
+.foot{
+
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blueviolet;
+    padding: 50px;
+
+}
+.fot{
+
+    color: white;
+}
+
+.fot h1{
+    font-size: x-large;
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+    
+}
